@@ -1,16 +1,17 @@
 # JsonToCpp
 convert json file to cpp class
 ## 运行说明
-使用本软件，json文件需要遵守如下两个预定：
+使用本软件，json文件需要遵守如下三个约定：
 1. 请确保传入的json文件没有格式错误！
 2. json数组(array)中的数据结构必须相同！
 3. json对象(object)的key必须为英文！
+
 如运行不起来，可issues。
 ## 测试
-工程下的json文件夹中有一个json文件，可供测试。output问价夹下是对应生成的.h文件。供参考！ 
+工程下的json文件夹中有一个json文件，可供测试。output文件夹下是对应生成的.h文件。供参考！ 
 
 ## 依赖库
-生成的.h文件依赖[nlohmann](https://github.com/nlohmann/json)，关于这个库，不再详解，自行翻阅，很强大。
+生成的.h文件依赖[nlohmann](https://github.com/nlohmann/json)，关于这个库，不再详解，自行翻阅，很强大。已经放在了工程下，自行使用。
 
 ## 优势
 可配合[nlohmann](https://github.com/nlohmann/json)，自动对json文件反序列化，c++的数据结构也可以自动序列化为nlohmann::json，方便发送或者存入本地。
