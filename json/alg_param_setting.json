@@ -1,0 +1,130 @@
+{
+  "alg_deeplearn": {
+    "alg_name": "深度学习",
+    "alg_params": {
+      "camera_params": [
+        {
+          "IngoreLeftOffset": {
+            "friendly_name": "左侧忽略(mm)",
+            "index": 4,
+            "value": "0"
+          },
+          "IngoreRightOffset": {
+            "friendly_name": "右侧忽略(mm)",
+            "index": 5,
+            "value": "0"
+          },
+          "PIXEL_HEIGHT": {
+            "friendly_name": "纵向分辨率",
+            "index": 6,
+            "value": "8.3"
+          },
+          "PIXEL_WIDTH": {
+            "friendly_name": "横向分辨率",
+            "index": 7,
+            "value": "8.3"
+          },
+          "cutLeftOffset": {
+            "friendly_name": "左侧切除(mm)",
+            "index": 2,
+            "value": "0"
+          },
+          "cutRightOffset": {
+            "friendly_name": "右侧切除(mm)",
+            "index": 3,
+            "value": "0"
+          },
+          "hightthresh": {
+            "friendly_name": "阈值上限",
+            "index": 1,
+            "value": "255"
+          },
+          "lowthresh": {
+            "friendly_name": "阈值下限",
+            "index": 0,
+            "value": "0"
+          }
+        }
+      ],
+      "common_params": {
+        "BBOX_CONF_THRESH": {
+          "friendly_name": "BBOX_CONF_THRESH",
+          "index": 0,
+          "value": "0.1"
+        },
+        "CLASS_NUM": {
+          "friendly_name": "CLASS_NUM",
+          "index": 2,
+          "value": "8"
+        },
+        "IGNORE_THRESH": {
+          "friendly_name": "IGNORE_THRESH",
+          "index": 3,
+          "value": "0.1"
+        },
+        "IMAGE_DIVIDE_HEIGHT": {
+          "friendly_name": "分割图片高度",
+          "index": 7,
+          "value": "1000"
+        },
+        "IMAGE_DIVIDE_WIDTH": {
+          "friendly_name": "分割图片宽度",
+          "index": 6,
+          "value": "1000"
+        },
+        "INPUT_H": {
+          "friendly_name": "INPUT_H",
+          "index": 4,
+          "value": "512"
+        },
+        "INPUT_W": {
+          "friendly_name": "INPUT_W",
+          "index": 5,
+          "value": "512"
+        },
+        "INSTANCE_COUNT_PER_GPU": {
+          "friendly_name": "实例个数/GPU",
+          "index": 9,
+          "value": "2"
+        },
+        "IS_DIVIDE_IMAGE": {
+          "friendly_name": "是否分割图片",
+          "index": 8,
+          "value": "1"
+        },
+        "NMS_THRESH": {
+          "friendly_name": "NMS_THRESH",
+          "index": 1,
+          "value": "0.4"
+        },
+        "OVERLAP_HEIGHT": {
+          "friendly_name": "垂直切割重合",
+          "index": 10,
+          "value": "100"
+        },
+        "OVERLAP_WIDTH": {
+          "friendly_name": "水平切割重合",
+          "index": 11,
+          "value": "100"
+        },
+        "min_reserved_area": {
+          "friendly_name": "缺陷最小保留面积(pix)",
+          "index": 13,
+          "value": "10000"
+        },
+        "threshold_lightlow": {
+          "friendly_name": "缺陷最小灰度",
+          "index": 12,
+          "value": "170"
+        }
+      }
+    }
+  },
+  "alg_tradition": {
+    "alg_name": "传统算法",
+    "alg_params": {
+      "camera_params": [],
+      "common_params": {}
+    }
+  }
+}
