@@ -1,13 +1,13 @@
 # JsonToCpp
 convert json file to cpp class
 
-# 依赖库
+## 依赖库
 生成的.h文件依赖[nlohmann](https://github.com/nlohmann/json)，关于这个库，不再详解，自行翻阅，很强大。
 
-# 优势
-可使用[nlohmann](https://github.com/nlohmann/json)，自动对json文件反序列化，对c++自定义的结构自动序列化为nlohmann::json，方便发送或者存入本地。
+## 优势
+可配合[nlohmann](https://github.com/nlohmann/json)，自动对json文件反序列化，c++的数据结构也可以自动序列化为nlohmann::json，方便发送或者存入本地。
 
-# 简单使用
+## 简单使用
 ```cpp
 	//根据 alg_param_setting.json 自动生成的 alg_param_setting.h
 	#include "output\alg_param_setting.h"
@@ -34,5 +34,5 @@ convert json file to cpp class
 	o << std::setw(4) << p3 << std::endl;
 	o.close()
 ```
-# 后续
+## 后续
 还可以进行很多扩展和定制化，如需源码，邮箱联系：gamerzhj@163.com
